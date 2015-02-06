@@ -1,4 +1,4 @@
-module Sampler
+module RSampler
 
   class Multinomial
 

@@ -1,3 +1,3 @@
-module Sampler
+module RSampler
   VERSION = "1.0.0"
 end

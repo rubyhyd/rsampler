@@ -1,2 +1,2 @@
 require "minitest/autorun"
-require "sampler"
+require "rsampler"

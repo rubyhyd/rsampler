@@ -4,7 +4,7 @@ class TestMultinomial < Minitest::Test
 
   def setup
     @prob = [0.1, 0.2, 0.3, 0.4]
-    @multinomial = Sampler::Multinomial.new @prob
+    @multinomial = RSampler::Multinomial.new @prob
   end
 
 
@@ -20,7 +20,7 @@ class TestMultinomial < Minitest::Test
   end  
 
   def test_selfsampling
-    assert Sampler::Multinomial.sampling(@prob, 20).size == 20
+    assert RSampler::Multinomial.sampling(@prob, 20).size == 20
   end
 
 end

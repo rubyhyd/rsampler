@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'sampler/version'
+require 'rsampler/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sampler"
-  spec.version       = Sampler::VERSION
+  spec.name          = "rsampler"
+  spec.version       = RSampler::VERSION
   spec.authors       = ["Eval Air"]
   spec.email         = ["pkuimehyd@163.com"]
   spec.summary       = %q{A sampler simulating multinomial sampling}
