@@ -1,5 +1,13 @@
 module RSampler
 
+  # == Multinomial
+  #
+  #   Used to sample samples in a multinomial distribution
+  #
+  # A minial usage could be:
+  #   
+  #   RSampler::Multinomial.sampling(prob, sample_num) # => an array of samples   
+  #
   class Multinomial
 
     attr_reader :accum_prob, :total_num
